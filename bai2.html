@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //Bài 2: Viết hàm tính diện tích, hàm tính chu vi hình tròn. Gọi hàm vừa xây dựng được
+    const pi = 3.14;
+    function Acreage(r){
+        let s = Math.pow(r,2)*pi ;
+        return s;
+    }
+
+    function Perimeter(r){
+        let c = 2*r*pi;
+        return c;
+    }
+    let r = +prompt('Nhập bán kính: ');
+    document.write('Diện tích hình tròn bằng: ' + ' ' + Acreage(r) + 'Cm^2' + '<br>' + 'Chu vi hình tròn bằng: '+ '' + Perimeter(r)+'Cm');
+</script>
+</body>
+</html>

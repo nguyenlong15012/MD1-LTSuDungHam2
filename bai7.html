@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //Bài 7: Viết hàm truyền vào 2 số nguyên bất kì, thực hiện đổi chỗ hai số nguyên đó.
+    // let x = +prompt('Nhập số thứ nhất');
+    // let y = +prompt('Nhập số thứ hai');
+    // function hoandoi() {
+    //     let c = x-y;
+    //     x=x-c;
+    //     y=x+c;
+    //     return;
+    // }
+    //
+    // // hoandoi(x,y)
+    // // document.write('x = ' + x + 'y = ' + y );
+    // hoandoi(x,y);
+    // console.log('check a vs b:',x,y)
+
+
+        let a = +prompt('nhập số');
+        let b = +prompt('nhập số')
+        function hoandoi() {
+        let c = a;
+        a=b;
+        b=c;
+    }
+        hoandoi();
+        document.write('check a vs b:',a+ ' ,' +b);
+
+</script>
+
+
+</body>
+</html>
